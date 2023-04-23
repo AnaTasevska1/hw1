@@ -1,6 +1,6 @@
 package class12;
 
-public class E7StringDemo {
+public class E7StringDemoTrim {
     public static void main(String[] args) {
         String sentence="          Java is fun     ";
 

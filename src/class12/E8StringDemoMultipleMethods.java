@@ -1,10 +1,13 @@
 package class12;
 
-public class E8StringDemo {
+public class E8StringDemoMultipleMethods {
     public static void main(String[] args) {
-        String sentence="Java is very very easy";
+        String sentence="   JAVA is very very easy";
+        // method chaining calling multiple methods on the same line
 
-        System.out.println(sentence.startsWith("Java"));
+        sentence=sentence.trim().toLowerCase();
+        System.out.println(sentence);
         System.out.println(sentence.startsWith("java"));
+
     }
 }
