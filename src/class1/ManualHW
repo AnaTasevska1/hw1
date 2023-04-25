@@ -1,0 +1,41 @@
+1. Scenario - Log in to Gmail
+
+Given - User is able to launch the e-mail app on Chrome browser
+When - user enters valid username and password
+And - user clicks on log in button
+Then - user is navigated to homepage
+
+
+2. Scenario - Sign in to Amazon app with invalid email address
+
+Given - user is able to launch Amazon app on Chrome browser
+When - user clicks on Hamburger menu
+And - user clicks on Sign in button
+And - user enters invalid email address
+And - user clicks on Continue button
+Then - "There was a problem" error message is displayed
+
+
+3. Scenario - Log in to Gmail with wrong password
+
+Given - user is able to launch the e-mail app on Chrome browser
+When - user enters valid username and invalid password
+And - user clicks on log in button
+Then - error message is displayed and user is unable to log in
+
+
+4. Scenario - Log in to Facebook
+
+Given - user is able to launch the facebook app on Mozilla browser
+When - user enters valid username and password
+And - user clicks on log in button
+Then - user is navigated to homepage
+
+
+5. Scenario - Play video on Youtube
+
+Given - user is able to launch the youtube app on Chrome browser
+When - user search for a video in the search box
+And - user clicks on the search icon
+And - user clicks on the video
+Then - video starts playing
